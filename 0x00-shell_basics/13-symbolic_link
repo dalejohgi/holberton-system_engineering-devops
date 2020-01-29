@@ -1,1 +1,1 @@
-ln -s /bin/ls __ls__
+ln -s /0x00-shell_basics /bin/ls __ls__
