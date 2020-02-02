@@ -1,2 +1,2 @@
 #!/bin/bash
-fmt</etc/psswd
+cat /etc/psswd
