@@ -9,7 +9,10 @@
 ~h
 # Command Line History (newest to oldest):
 :x
+:q!
+:X
 :q
+:x}
 
 # Search String History (newest to oldest):
 
@@ -20,127 +23,447 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	o
 
 # File marks:
-'0  2  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/6-third_line
-'1  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/5-firstlines
-'2  2  15  ~/holberton-system_engineering-devops/0x02-shell_redirections/5-firstlines
-'3  2  15  ~/holberton-system_engineering-devops/0x02-shell_redirections/4-lastlines
-'4  13  1  ~/holberton-system_engineering-devops/0x02-shell_redirections/README.md
-'5  2  30  ~/holberton-system_engineering-devops/0x02-shell_redirections/3-twofiles
-'6  2  3  ~/holberton-system_engineering-devops/0x02-shell_redirections/2-hellofile
-'7  2  13  ~/holberton-system_engineering-devops/0x02-shell_redirections/1-confused_smiley
-'8  2  17  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
-'9  1  60  ~/holberton-system_engineering-devops/0x02-shell_redirections/README.md
+'0  20  3  ~/Betty/betty
+'1  6  14  ~/pruebas/hello.c
+'2  2  26  ~/script
+'3  3  0  ~/script
+'4  1  0  ~/script
+'5  1  0  ~/hello
+'6  2  31  ~/holberton-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
+'7  2  21  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/14-decimal_to_hexadecimal
+'8  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/11-binary_to_decimal
+'9  2  20  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/13-print_float
 
 # Jumplist (newest first):
--'  2  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/6-third_line
+-'  20  3  ~/Betty/betty
+-'  1  0  ~/Betty/betty
+-'  6  14  ~/pruebas/hello.c
+-'  1  0  ~/pruebas/hello.c
+-'  2  26  ~/script
+-'  1  0  ~/script
+-'  3  0  ~/script
+-'  1  0  ~/hello
+-'  2  31  ~/holberton-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
+-'  2  21  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/14-decimal_to_hexadecimal
+-'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/14-decimal_to_hexadecimal
+-'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/11-binary_to_decimal
+-'  2  20  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/13-print_float
+-'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/13-print_float
+-'  2  37  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/12-combinations
+-'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/12-combinations
+-'  2  17  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/11-binary_to_decimal
+-'  2  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/10-love_exponent_breath
+-'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/10-love_exponent_breath
+-'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/7-create_global_variable
+-'  2  23  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
+-'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
+-'  2  27  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/8-true_knowledge
+-'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/8-true_knowledge
+-'  2  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/7-create_global_variable
+-'  2  16  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/6-create_local_variable
+-'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/6-create_local_variable
+-'  2  2  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/5-local_variables
+-'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/5-local_variables
+-'  2  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/4-global_variables
+-'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/4-global_variables
+-'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/2-path
+-'  2  31  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/3-paths
+-'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/3-paths
+-'  2  17  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/2-path
+-'  2  5  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/1-hello_you
+-'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/1-hello_you
+-'  2  14  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/0-alias
+-'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/0-alias
+-'  1  28  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/README.md
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/22
+-'  2  2  ~/holberton-system_engineering-devops/0x02-shell_redirections/21-reverse
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/21-reverse
+-'  2  6  ~/holberton-system_engineering-devops/0x02-shell_redirections/20-hiago
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/20-hiago
+-'  2  6  ~/holberton-system_engineering-devops/0x02-shell_redirections/19-AZ
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/19-AZ
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/README.md
+-'  2  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/18-letteronly
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/18-letteronly
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/18
+-'  2  28  ~/holberton-system_engineering-devops/0x02-shell_redirections/17-hidethisword
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/17-hidethisword
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/16-whatsnext
+-'  2  34  ~/holberton-system_engineering-devops/0x02-shell_redirections/16-whatsnext
+-'  2  26  ~/holberton-system_engineering-devops/0x02-shell_redirections/15-countthatword
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/15-countthatword
+-'  2  29  ~/holberton-system_engineering-devops/0x02-shell_redirections/14-findthatword
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/14-findthatword
+-'  2  14  ~/holberton-system_engineering-devops/0x02-shell_redirections/13-unique
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/13-unique
+-'  17  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/list
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/list
+-'  2  17  ~/holberton-system_engineering-devops/0x02-shell_redirections/12-newest_files
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/12-newest_files
+-'  2  36  ~/holberton-system_engineering-devops/0x02-shell_redirections/11-directories
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/11-directories
+-'  1  10  ~/holberton-system_engineering-devops/0x02-shell_redirections/10-no_more_js
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/iacta
+-'  10  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/iacta
+-'  2  17  ~/holberton-system_engineering-devops/0x02-shell_redirections/9-duplicate_last_line
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/9-duplicate_last_line
+-'  18  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/iacta
+-'  20  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/iacta
+-'  2  22  ~/holberton-system_engineering-devops/0x02-shell_redirections/8-cwd_state
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/8-cwd_state
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/\*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)
+-'  2  85  ~/holberton-system_engineering-devops/0x02-shell_redirections/7-file
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/7-file
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/*'Holberton
+-'  2  25  ~/holberton-system_engineering-devops/0x02-shell_redirections/6-third_line
 -'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/6-third_line
+-'  10  1  ~/holberton-system_engineering-devops/0x02-shell_redirections/iaca
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/iaca
+-'  2  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/README.md
+-'  2  14  ~/holberton-system_engineering-devops/0x02-shell_redirections/3-twofiles
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/3-twofiles
+-'  2  14  ~/holberton-system_engineering-devops/0x02-shell_redirections/2-hellofile
+-'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/2-hellofile
 -'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/5-firstlines
 -'  2  15  ~/holberton-system_engineering-devops/0x02-shell_redirections/5-firstlines
 -'  2  15  ~/holberton-system_engineering-devops/0x02-shell_redirections/4-lastlines
 -'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/4-lastlines
--'  13  1  ~/holberton-system_engineering-devops/0x02-shell_redirections/README.md
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/README.md
--'  2  30  ~/holberton-system_engineering-devops/0x02-shell_redirections/3-twofiles
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/3-twofiles
--'  2  3  ~/holberton-system_engineering-devops/0x02-shell_redirections/2-hellofile
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/2-hellofile
+-'  12  1  ~/holberton-system_engineering-devops/0x02-shell_redirections/README.md
 -'  2  13  ~/holberton-system_engineering-devops/0x02-shell_redirections/1-confused_smiley
 -'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/1-confused_smiley
 -'  2  17  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
 -'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  2  17  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  2  17  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  2  17  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  2  17  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  2  17  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  2  17  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  2  17  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/README.md
--'  12  1  ~/holberton-system_engineering-devops/README.md
--'  13  1  ~/holberton-system_engineering-devops/0x02-shell_redirections/README.md
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/README.md
--'  2  30  ~/holberton-system_engineering-devops/0x02-shell_redirections/3-twofiles
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/3-twofiles
--'  2  3  ~/holberton-system_engineering-devops/0x02-shell_redirections/2-hellofile
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/2-hellofile
--'  2  13  ~/holberton-system_engineering-devops/0x02-shell_redirections/1-confused_smiley
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/1-confused_smiley
--'  2  17  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/README.md
 
 # History of marks within files (newest to oldest):
 
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/6-third_line
+> ~/Betty/betty
+	"	20	3
+	^	20	4
+	.	20	1
+	+	20	1
+
+> ~/pruebas/hello.c
+	"	6	14
+	^	6	15
+	.	5	27
+	+	2	18
+	+	3	14
+	+	7	0
+	+	5	25
+	+	6	14
+	+	5	27
+
+> ~/script
+	"	2	26
+	^	2	27
+	.	2	26
+	+	1	26
+	+	1	11
+	+	1	11
+	+	2	26
+
+> ~/hello
+	"	1	0
+	^	1	0
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
+	"	2	31
+	^	2	32
+	.	3	0
+	+	1	11
+	+	1	11
+	+	2	30
+	+	3	0
+
+> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/14-decimal_to_hexadecimal
+	"	2	21
+	^	2	22
+	.	2	21
+	+	2	21
+
+> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/11-binary_to_decimal
+	"	1	0
+	^	1	0
+	.	2	16
+	+	2	16
+
+> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/13-print_float
+	"	2	20
+	^	2	21
+	.	2	20
+	+	2	20
+
+> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/12-combinations
+	"	2	37
+	^	2	38
+	.	2	15
+	+	2	15
+
+> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/10-love_exponent_breath
 	"	2	0
 	^	2	0
-	.	1	11
+	.	2	17
 	+	1	11
+	+	2	17
+
+> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/7-create_global_variable
+	"	1	0
+	^	1	0
+	.	2	0
+	+	1	11
+	+	1	11
+	+	2	0
+
+> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
+	"	2	23
+	^	2	24
+	.	2	21
+	+	2	21
+
+> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/8-true_knowledge
+	"	2	27
+	^	2	28
+	.	2	12
+	+	2	12
+
+> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/6-create_local_variable
+	"	2	16
+	^	2	17
+	.	2	15
+	+	2	15
+
+> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/5-local_variables
+	"	2	2
+	^	2	3
+	.	2	2
+	+	2	2
+
+> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/4-global_variables
+	"	2	0
+	^	2	0
+	.	2	2
+	+	2	2
+
+> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/2-path
+	"	1	0
+	^	1	0
+	.	2	17
+	+	2	17
+
+> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/3-paths
+	"	2	31
+	^	2	32
+	.	2	31
+	+	2	31
+
+> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/1-hello_you
+	"	2	5
+	^	2	6
+	.	2	5
+	+	2	5
+
+> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/0-alias
+	"	2	14
+	^	2	15
+	.	2	13
+	+	2	13
+
+> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/README.md
+	"	1	28
+	^	1	29
+	.	1	28
+	+	1	11
+	+	1	28
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/22
+	"	1	0
+	^	1	0
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/21-reverse
+	"	2	2
+	^	2	3
+	.	2	2
+	+	2	2
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/20-hiago
+	"	2	6
+	^	2	7
+	.	2	7
+	+	1	11
+	+	2	7
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/19-AZ
+	"	2	6
+	^	2	7
+	.	2	6
+	+	2	6
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/README.md
+	"	1	0
+	^	1	0
+	.	3	0
+	+	1	60
+	+	12	1
+	+	3	0
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/18-letteronly
+	"	2	0
+	^	2	1
+	.	2	30
+	+	2	30
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/18
+	"	1	0
+	^	1	0
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/17-hidethisword
+	"	2	28
+	^	2	29
+	.	2	28
+	+	2	28
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/16-whatsnext
+	"	1	0
+	^	1	0
+	.	2	34
+	+	2	34
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/15-countthatword
+	"	2	26
+	^	2	27
+	.	2	26
+	+	1	11
+	+	2	26
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/14-findthatword
+	"	2	29
+	^	2	30
+	.	2	29
+	+	2	29
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/13-unique
+	"	2	14
+	^	2	15
+	.	2	15
+	+	1	11
+	+	1	11
+	+	1	11
+	+	3	0
+	+	1	11
+	+	2	15
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/list
+	"	17	0
+	^	17	1
+	.	17	0
+	+	17	0
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/12-newest_files
+	"	2	17
+	^	2	18
+	.	2	17
+	+	2	17
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/11-directories
+	"	2	36
+	^	2	37
+	.	2	35
+	+	1	11
+	+	2	8
+	+	2	35
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/10-no_more_js
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	10
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/iacta
+	"	1	0
+	^	1	0
+	.	10	0
+	+	19	2
+	+	1	1
+	+	19	0
+	+	10	0
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/9-duplicate_last_line
+	"	2	17
+	^	2	18
+	.	2	15
+	+	2	15
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/8-cwd_state
+	"	2	22
+	^	2	23
+	.	2	22
+	+	1	2
+	+	2	22
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/\*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)
+	"	1	0
+	^	1	0
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/7-file
+	"	2	85
+	^	2	86
+	.	3	0
+	+	1	0
+	+	1	39
+	+	1	11
+	+	2	69
+	+	2	132
+	+	2	48
+	+	2	30
+	+	2	24
+	+	3	0
+	+	2	162
+	+	2	61
+	+	2	78
+	+	2	78
+	+	2	82
+	+	2	168
+	+	2	27
+	+	2	81
+	+	3	0
+	+	2	180
+	+	2	60
+	+	3	0
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/*'Holberton
+	"	1	0
+	^	1	0
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/6-third_line
+	"	2	25
+	^	2	26
+	.	2	26
+	+	1	11
+	+	1	11
+	+	2	26
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/iaca
+	"	10	1
+	^	10	2
+	.	10	1
+	+	10	1
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/3-twofiles
+	"	2	14
+	^	2	15
+	.	2	15
+	+	2	15
+
+> ~/holberton-system_engineering-devops/0x02-shell_redirections/2-hellofile
+	"	2	14
+	^	2	15
+	.	2	13
+	+	2	13
 
 > ~/holberton-system_engineering-devops/0x02-shell_redirections/5-firstlines
 	"	1	0
@@ -153,25 +476,6 @@
 	^	2	16
 	.	2	15
 	+	2	15
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/README.md
-	"	13	1
-	^	13	2
-	.	13	1
-	+	1	60
-	+	13	1
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/3-twofiles
-	"	2	30
-	^	2	31
-	.	2	30
-	+	2	30
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/2-hellofile
-	"	2	3
-	^	2	4
-	.	2	3
-	+	2	3
 
 > ~/holberton-system_engineering-devops/0x02-shell_redirections/1-confused_smiley
 	"	2	13
