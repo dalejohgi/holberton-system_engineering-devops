@@ -11,8 +11,8 @@
 :x
 :q!
 :X
-:q
-:x}
+:u
+:d
 
 # Search String History (newest to oldest):
 
@@ -23,477 +23,1348 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
-	o
+""1	LINE	0
+		int m = 0;
+		int n;
+		int r;	
+			while (m < 10)
+			{
+				n = 0;
+				r = (m * n);
+				while (n < 10)
+				{
+				if (r < 10)
+					{
+					if (n == 9);
+					{
+					_putchar('0' + (r / 10));
+					_putchar('0' + (r % 10));
+					break;
+					_putchar('0' + r);
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ' );
+					}
+					else if (n == 9)
+					{
+					_putchar('0' +(r / 10));
+					_putchar('0' + (r % 10));
+					break;
+					}	
+					else
+					{
+					_putchar('0' + (r / 10));
+					_putchar('0' + (r % 10));
+					_putchar(',');
+					_putchar(' ');
+					n++;
+					}
+				}
+			_putchar('\n');
+			m++;
+			}
+	}
+"2	LINE	0
+		int seg = (b1 % 10);
+		int min = (bi / 10);
+		int hor = (b2 % 10);
+		int hmil = (b2 /10);
+"3	BLOCK	19
+		int b1 = 0;
+		int b2 = 0;
+"4	LINE	0
+	== 3)) && ((min == 5) && (seg == 9)))
+"5	BLOCK	63
+	Vfor(seg = 0; seg <= 9; seg++)
+		{
+			for(min = 0; min <= 5; min++)
+			{
+				for(hor = 0; hor <= 9; hor++)
+				{
+			
+					for(mil = 0; mil >= 9; mil++)
+					{
+						
+						if (((mil == 2) && (hor 
+							{
+							_putchar(mil);
+	                                                _putchar(hor);
+	                                                _putchar(':');
+	                                                _putchar(min);
+	                                                _putchar(seg);
+	                                                _putchar('\n');	
+							break;
+							}
+						else
+							{
+							_putchar(mil);
+							_putchar(hor);
+							_putchar(':');
+							_putchar(min);
+							_putchar(seg);
+							_putchar('\n');
+"6	LINE	0
+	        	{
+	                for(min = 48; min <= 57; min for(n = 48; n <= 57; n++)
+	        {
+	                for(m = 48; m <= 57; m++)
+	                        {
+	                        putchar(n);
+	                        putchar(m);
+	                        if (n == 57 && m == 57)
+	                                {
+	                                break;
+	                                }
+	                putchar(',');
+	                putchar(' ');
+	
+	                        }
+	
+	        }
+	        putchar('\n');
+	
+	
+	return(0);
+	}++)
+	                        {
+	                        putchar(n);
+	                        putchar(m);
+	                        if (n == 57 && m == 57)
+	                                {
+	                                break;
+	                                }
+	                putchar(',');
+	                putchar(' ');
+	
+	                        }
+	
+	        }
+	        putchar('\n');
+	
+	
+	return(0);
+	}	
+	}
+"7	LINE	0
+	                for(min = 48; mmin <= 57; m++)
+"8	LINE	0
+		l++;	
+"9	LINE	0
+			_putchar('\n');
+"-	CHAR	0
+		
 
 # File marks:
-'0  20  3  ~/Betty/betty
-'1  6  14  ~/pruebas/hello.c
-'2  2  26  ~/script
-'3  3  0  ~/script
-'4  1  0  ~/script
-'5  1  0  ~/hello
-'6  2  31  ~/holberton-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
-'7  2  21  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/14-decimal_to_hexadecimal
-'8  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/11-binary_to_decimal
-'9  2  20  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/13-print_float
+'0  10  15  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/2-mul.c
+'1  12  10  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/2-mul.c
+'2  1  0  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/2-mul.c
+'3  11  0  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/2-mul.c
+'4  13  21  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/holberton.h
+'5  14  0  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/2-main.c
+'6  3  9  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/1-isdigit.c
+'7  18  0  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/1-main.c
+'8  10  1  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/1-isdigit.c
+'9  12  19  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/holberton.h
 
 # Jumplist (newest first):
--'  20  3  ~/Betty/betty
--'  1  0  ~/Betty/betty
--'  6  14  ~/pruebas/hello.c
--'  1  0  ~/pruebas/hello.c
--'  2  26  ~/script
--'  1  0  ~/script
--'  3  0  ~/script
--'  1  0  ~/hello
--'  2  31  ~/holberton-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
--'  2  21  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/14-decimal_to_hexadecimal
--'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/14-decimal_to_hexadecimal
--'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/11-binary_to_decimal
--'  2  20  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/13-print_float
--'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/13-print_float
--'  2  37  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/12-combinations
--'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/12-combinations
--'  2  17  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/11-binary_to_decimal
--'  2  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/10-love_exponent_breath
--'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/10-love_exponent_breath
--'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/7-create_global_variable
--'  2  23  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
--'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
--'  2  27  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/8-true_knowledge
--'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/8-true_knowledge
--'  2  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/7-create_global_variable
--'  2  16  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/6-create_local_variable
--'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/6-create_local_variable
--'  2  2  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/5-local_variables
--'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/5-local_variables
--'  2  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/4-global_variables
--'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/4-global_variables
--'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/2-path
--'  2  31  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/3-paths
--'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/3-paths
--'  2  17  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/2-path
--'  2  5  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/1-hello_you
--'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/1-hello_you
--'  2  14  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/0-alias
--'  1  0  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/0-alias
--'  1  28  ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/README.md
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/22
--'  2  2  ~/holberton-system_engineering-devops/0x02-shell_redirections/21-reverse
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/21-reverse
--'  2  6  ~/holberton-system_engineering-devops/0x02-shell_redirections/20-hiago
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/20-hiago
--'  2  6  ~/holberton-system_engineering-devops/0x02-shell_redirections/19-AZ
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/19-AZ
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/README.md
--'  2  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/18-letteronly
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/18-letteronly
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/18
--'  2  28  ~/holberton-system_engineering-devops/0x02-shell_redirections/17-hidethisword
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/17-hidethisword
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/16-whatsnext
--'  2  34  ~/holberton-system_engineering-devops/0x02-shell_redirections/16-whatsnext
--'  2  26  ~/holberton-system_engineering-devops/0x02-shell_redirections/15-countthatword
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/15-countthatword
--'  2  29  ~/holberton-system_engineering-devops/0x02-shell_redirections/14-findthatword
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/14-findthatword
--'  2  14  ~/holberton-system_engineering-devops/0x02-shell_redirections/13-unique
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/13-unique
--'  17  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/list
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/list
--'  2  17  ~/holberton-system_engineering-devops/0x02-shell_redirections/12-newest_files
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/12-newest_files
--'  2  36  ~/holberton-system_engineering-devops/0x02-shell_redirections/11-directories
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/11-directories
--'  1  10  ~/holberton-system_engineering-devops/0x02-shell_redirections/10-no_more_js
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/iacta
--'  10  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/iacta
--'  2  17  ~/holberton-system_engineering-devops/0x02-shell_redirections/9-duplicate_last_line
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/9-duplicate_last_line
--'  18  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/iacta
--'  20  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/iacta
--'  2  22  ~/holberton-system_engineering-devops/0x02-shell_redirections/8-cwd_state
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/8-cwd_state
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/\*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)
--'  2  85  ~/holberton-system_engineering-devops/0x02-shell_redirections/7-file
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/7-file
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/*'Holberton
--'  2  25  ~/holberton-system_engineering-devops/0x02-shell_redirections/6-third_line
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/6-third_line
--'  10  1  ~/holberton-system_engineering-devops/0x02-shell_redirections/iaca
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/iaca
--'  2  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/README.md
--'  2  14  ~/holberton-system_engineering-devops/0x02-shell_redirections/3-twofiles
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/3-twofiles
--'  2  14  ~/holberton-system_engineering-devops/0x02-shell_redirections/2-hellofile
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/2-hellofile
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/5-firstlines
--'  2  15  ~/holberton-system_engineering-devops/0x02-shell_redirections/5-firstlines
--'  2  15  ~/holberton-system_engineering-devops/0x02-shell_redirections/4-lastlines
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/4-lastlines
--'  12  1  ~/holberton-system_engineering-devops/0x02-shell_redirections/README.md
--'  2  13  ~/holberton-system_engineering-devops/0x02-shell_redirections/1-confused_smiley
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/1-confused_smiley
--'  2  17  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
--'  1  0  ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
+-'  10  15  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/2-mul.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/2-mul.c
+-'  12  10  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/2-mul.c
+-'  11  0  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/2-mul.c
+-'  13  21  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/holberton.h
+-'  1  0  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/holberton.h
+-'  14  0  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/2-main.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/2-main.c
+-'  3  9  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/1-isdigit.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/1-isdigit.c
+-'  18  0  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/1-main.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/1-main.c
+-'  10  1  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/1-isdigit.c
+-'  12  19  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/holberton.h
+-'  15  7  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/0-isupper.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/0-isupper.c
+-'  9  22  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/0-isupper.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/o-main.cls
+-'  18  0  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/o-main.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/o-main.c
+-'  11  19  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/holberton.h
+-'  1  20  ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/README.md
+-'  11  0  ~/pruebas/quiz.c
+-'  1  0  ~/pruebas/quiz.c
+-'  10  8  ~/pruebas/quiz.c
+-'  12  0  ~/pruebas/quiz.c
+-'  2  10  ~/pruebas/quiz.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x03-debugging/holberton.h
+-'  1  0  ~/holbertonschool-low_level_programming/0x03-debugging/2-largest_number.c
+-'  23  4  ~/holbertonschool-low_level_programming/0x03-debugging/2-largest_number.c
+-'  19  51  ~/holbertonschool-low_level_programming/0x03-debugging/2-main.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x03-debugging/2-main.c
+-'  7  39  ~/holbertonschool-low_level_programming/0x03-debugging/holberton.h
+-'  27  0  ~/holbertonschool-low_level_programming/0x03-debugging/2-largest_number.c
+-'  2  16  ~/holbertonschool-low_level_programming/0x03-debugging/2-main.c
+-'  28  15  ~/holbertonschool-low_level_programming/0x03-debugging/2-largest_number.c
+-'  22  0  ~/holbertonschool-low_level_programming/0x03-debugging/2-largest_number.c
+-'  22  0  ~/holbertonschool-low_level_programming/0x03-debugging/2-main.c
+-'  24  4  ~/holbertonschool-low_level_programming/0x03-debugging/2-largest_number.c
+-'  51  12  ~/holbertonschool-low_level_programming/0x03-debugging/2-largest_number.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x03-debugging/1-main.c
+-'  56  20  ~/holbertonschool-low_level_programming/0x03-debugging/2-largest_number.c
+-'  82  12  ~/holbertonschool-low_level_programming/0x03-debugging/2-largest_number.c
+-'  40  0  ~/holbertonschool-low_level_programming/0x03-debugging/2-main.c
+-'  86  0  ~/holbertonschool-low_level_programming/0x03-debugging/2-largest_number.c
+-'  44  0  ~/holbertonschool-low_level_programming/0x03-debugging/2-main.c
+-'  19  3  ~/holbertonschool-low_level_programming/0x03-debugging/1-main.c
+-'  17  4  ~/holbertonschool-low_level_programming/0x03-debugging/1-main.c
+-'  23  0  ~/holbertonschool-low_level_programming/0x03-debugging/1-main.c
+-'  18  26  ~/holbertonschool-low_level_programming/0x03-debugging/1-main.c
+-'  20  0  ~/holbertonschool-low_level_programming/0x03-debugging/1-main.c
+-'  15  0  ~/holbertonschool-low_level_programming/0x03-debugging/0-main.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x03-debugging/0-main.c
+-'  2  0  ~/holbertonschool-low_level_programming/0x03-debugging/0-main.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/holberton.h
+-'  8  23  ~/holbertonschool-low_level_programming/0x03-debugging/holberton.h
+-'  12  12  ~/holbertonschool-low_level_programming/0x03-debugging/0-main.c
+-'  1  8  ~/holbertonschool-low_level_programming/0x03-debugging/README.md
+-'  42  18  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-times_table.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-times_table.c
+-'  34  34  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-times_table.c
+-'  37  33  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-times_table.c
+-'  43  7  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-times_table.c
+-'  21  30  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-times_table.c
+-'  52  4  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-times_table.c
+-'  55  4  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-times_table.c
+-'  58  3  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-times_table.c
+-'  12  0  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-main.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-main.c
+-'  10  22  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/holberton.h
+-'  3  11  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/8-24_hours.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/8-24_hours.c
+-'  25  1  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/8-24_hours.c
+-'  14  8  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/8-24_hours.c
+-'  18  1  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/8-24_hours.c
+-'  15  10  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/8-24_hours.c
+-'  23  7  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/8-24_hours.c
+-'  27  0  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/8-24_hours.c
+-'  5  0  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/0-holberton.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/0-holberton.c
+-'  7  20  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/8-24_hours.c
+-'  28  0  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/8-24_hours.c
+-'  27  0  ~/pruebas/aiuda.c
+-'  1  0  ~/pruebas/aiuda.c
+-'  12  0  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/8-main.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/8-main.c
+-'  9  21  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/holberton.h
+-'  3  0  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/7-print_last_digit.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/7-print_last_digit.c
+-'  11  9  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/7-print_last_digit.c
+-'  10  12  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/7-print_last_digit.c
+-'  16  10  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/7-print_last_digit.c
+-'  12  0  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/7-print_last_digit.c
+-'  23  4  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/7-print_last_digit.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/7-last_digit.c
+-'  25  16  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/7-print_last_digit.c
+-'  28  0  ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/7-print_last_digit.c
 
 # History of marks within files (newest to oldest):
 
-> ~/Betty/betty
-	"	20	3
-	^	20	4
-	.	20	1
-	+	20	1
-
-> ~/pruebas/hello.c
-	"	6	14
-	^	6	15
-	.	5	27
-	+	2	18
-	+	3	14
-	+	7	0
-	+	5	25
-	+	6	14
-	+	5	27
-
-> ~/script
-	"	2	26
-	^	2	27
-	.	2	26
-	+	1	26
-	+	1	11
-	+	1	11
-	+	2	26
-
-> ~/hello
-	"	1	0
-	^	1	0
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/22-users_and_homes
-	"	2	31
-	^	2	32
-	.	3	0
-	+	1	11
-	+	1	11
-	+	2	30
+> ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/2-mul.c
+	"	10	15
+	^	10	16
+	.	10	15
+	+	3	36
+	+	4	1
 	+	3	0
+	+	4	18
+	+	7	0
+	+	6	0
+	+	7	2
+	+	8	22
+	+	13	0
+	+	10	18
+	+	8	21
+	+	11	0
+	+	1	21
+	+	10	0
+	+	12	11
+	+	10	15
 
-> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/14-decimal_to_hexadecimal
-	"	2	21
-	^	2	22
-	.	2	21
-	+	2	21
+> ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/holberton.h
+	"	13	21
+	^	13	22
+	.	13	21
+	+	11	20
+	+	12	20
+	+	13	21
 
-> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/11-binary_to_decimal
+> ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/2-main.c
+	"	14	0
+	^	14	1
+	.	14	0
+	+	14	0
+
+> ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/1-isdigit.c
+	"	3	9
+	^	3	10
+	.	3	9
+	+	17	0
+	+	7	18
+	+	9	25
+	+	3	9
+
+> ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/1-main.c
+	"	18	0
+	^	18	1
+	.	18	0
+	+	18	0
+
+> ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/0-isupper.c
+	"	15	7
+	^	15	8
+	.	15	7
+	+	1	0
+	+	18	0
+	+	6	3
+	+	17	0
+	+	3	9
+	+	17	0
+	+	9	26
+	+	16	1
+	+	15	9
+	+	13	0
+	+	12	1
+	+	11	8
+	+	15	8
+	+	9	22
+	+	11	7
+	+	15	7
+
+> ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/o-main.cls
 	"	1	0
 	^	1	0
-	.	2	16
+
+> ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/o-main.c
+	"	18	0
+	^	18	1
+	.	18	0
+	+	18	0
+
+> ~/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/README.md
+	"	1	20
+	^	1	21
+	.	1	20
+	+	1	20
+
+> ~/pruebas/quiz.c
+	"	11	0
+	^	11	1
+	.	11	0
+	+	12	0
+	+	2	0
+	+	1	17
+	+	2	0
+	+	3	0
+	+	13	0
+	+	10	8
+	+	9	0
+	+	6	0
+	+	12	0
+	+	11	0
+	+	11	0
+	+	10	0
+	+	11	0
+
+> ~/holbertonschool-low_level_programming/0x03-debugging/holberton.h
+	"	1	0
+	^	7	40
+	.	7	39
+	+	8	23
+	+	1	0
+	+	7	39
+
+> ~/holbertonschool-low_level_programming/0x03-debugging/2-largest_number.c
+	"	1	0
+	^	1	0
+	.	23	5
+	+	86	0
+	+	72	17
+	+	76	22
+	+	70	0
+	+	72	0
+	+	73	0
+	+	74	0
+	+	75	0
+	+	76	0
+	+	77	0
+	+	78	0
+	+	79	0
+	+	80	0
+	+	81	0
+	+	82	0
+	+	83	0
+	+	85	0
+	+	80	23
+	+	57	1
+	+	43	17
+	+	47	22
+	+	51	26
+	+	43	7
+	+	47	31
+	+	51	12
+	+	29	1
+	+	15	11
+	+	19	26
+	+	23	9
+	+	13	12
+	+	17	12
+	+	21	12
+	+	25	12
+	+	28	16
+	+	13	14
+	+	17	14
+	+	21	14
+	+	25	14
+	+	28	18
+	+	13	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	28	0
+	+	23	5
+
+> ~/holbertonschool-low_level_programming/0x03-debugging/2-main.c
+	"	19	51
+	^	19	52
+	.	19	51
+	+	44	0
+	+	22	0
+	+	1	22
+	+	11	16
+	+	17	12
+	+	19	49
+	+	17	14
+	+	11	18
+	+	1	22
+	+	1	22
 	+	2	16
+	+	19	51
 
-> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/13-print_float
-	"	2	20
-	^	2	21
-	.	2	20
-	+	2	20
-
-> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/12-combinations
-	"	2	37
-	^	2	38
-	.	2	15
-	+	2	15
-
-> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/10-love_exponent_breath
-	"	2	0
-	^	2	0
-	.	2	17
-	+	1	11
-	+	2	17
-
-> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/7-create_global_variable
+> ~/holbertonschool-low_level_programming/0x03-debugging/1-main.c
 	"	1	0
 	^	1	0
+	.	19	3
+	+	24	0
+	+	18	31
+	+	16	9
+	+	18	15
+	+	19	10
+	+	18	27
+	+	10	0
+	+	12	0
+	+	14	0
+	+	16	0
+	+	17	0
+	+	18	1
+	+	19	0
+	+	21	0
+	+	23	0
+	+	16	20
+	+	17	5
+	+	17	6
+	+	18	17
+	+	19	3
+
+> ~/holbertonschool-low_level_programming/0x03-debugging/0-main.c
+	"	15	0
+	^	15	1
+	.	15	1
+	+	16	0
+	+	12	13
+	+	1	20
+	+	10	0
+	+	12	0
+	+	13	0
+	+	15	1
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/holberton.h
+	"	1	0
+	^	1	0
+	.	10	22
+	+	1	22
+	+	1	77
+	+	1	0
+	+	1	21
+	+	2	26
+	+	3	30
+	+	4	20
+	+	5	20
+	+	6	22
+	+	7	14
+	+	8	26
+	+	9	22
+	+	10	22
+
+> ~/holbertonschool-low_level_programming/0x03-debugging/README.md
+	"	1	8
+	^	1	9
 	.	2	0
-	+	1	11
-	+	1	11
 	+	2	0
 
-> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/9-divide_and_rule
-	"	2	23
-	^	2	24
-	.	2	21
-	+	2	21
-
-> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/8-true_knowledge
-	"	2	27
-	^	2	28
-	.	2	12
-	+	2	12
-
-> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/6-create_local_variable
-	"	2	16
-	^	2	17
-	.	2	15
-	+	2	15
-
-> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/5-local_variables
-	"	2	2
-	^	2	3
-	.	2	2
-	+	2	2
-
-> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/4-global_variables
-	"	2	0
-	^	2	0
-	.	2	2
-	+	2	2
-
-> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/2-path
-	"	1	0
-	^	1	0
-	.	2	17
-	+	2	17
-
-> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/3-paths
-	"	2	31
-	^	2	32
-	.	2	31
-	+	2	31
-
-> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/1-hello_you
-	"	2	5
-	^	2	6
-	.	2	5
-	+	2	5
-
-> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/0-alias
-	"	2	14
-	^	2	15
-	.	2	13
-	+	2	13
-
-> ~/holberton-system_engineering-devops/0x03-shell_variables_expansions/README.md
-	"	1	28
-	^	1	29
-	.	1	28
-	+	1	11
-	+	1	28
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/22
-	"	1	0
-	^	1	0
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/21-reverse
-	"	2	2
-	^	2	3
-	.	2	2
-	+	2	2
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/20-hiago
-	"	2	6
-	^	2	7
-	.	2	7
-	+	1	11
-	+	2	7
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/19-AZ
-	"	2	6
-	^	2	7
-	.	2	6
-	+	2	6
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/README.md
-	"	1	0
-	^	1	0
-	.	3	0
-	+	1	60
-	+	12	1
-	+	3	0
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/18-letteronly
-	"	2	0
-	^	2	1
-	.	2	30
-	+	2	30
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/18
-	"	1	0
-	^	1	0
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/17-hidethisword
-	"	2	28
-	^	2	29
-	.	2	28
-	+	2	28
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/16-whatsnext
-	"	1	0
-	^	1	0
-	.	2	34
-	+	2	34
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/15-countthatword
-	"	2	26
-	^	2	27
-	.	2	26
-	+	1	11
-	+	2	26
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/14-findthatword
-	"	2	29
-	^	2	30
-	.	2	29
-	+	2	29
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/13-unique
-	"	2	14
-	^	2	15
-	.	2	15
-	+	1	11
-	+	1	11
-	+	1	11
-	+	3	0
-	+	1	11
-	+	2	15
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/list
-	"	17	0
-	^	17	1
-	.	17	0
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-times_table.c
+	"	42	18
+	^	42	19
+	.	42	16
+	+	58	16
+	+	58	12
+	+	58	8
+	+	58	5
+	+	58	5
+	+	58	3
+	+	58	3
+	+	58	3
+	+	58	3
+	+	58	3
+	+	58	9
+	+	58	12
+	+	58	25
+	+	58	27
+	+	58	25
+	+	58	25
+	+	58	3
+	+	58	26
+	+	58	6
+	+	58	14
+	+	58	4
+	+	58	0
+	+	58	8
+	+	58	4
+	+	58	4
+	+	58	4
+	+	58	12
+	+	58	22
+	+	58	18
+	+	58	18
+	+	58	16
+	+	58	13
+	+	58	14
+	+	58	3
+	+	58	15
+	+	58	15
+	+	58	29
+	+	58	29
+	+	58	9
+	+	58	0
+	+	57	0
+	+	11	6
+	+	9	10
+	+	13	15
+	+	56	1
+	+	17	16
+	+	54	2
+	+	21	13
+	+	27	3
+	+	23	12
+	+	15	8
 	+	17	0
+	+	15	21
+	+	23	27
+	+	24	24
+	+	23	27
+	+	25	18
+	+	26	8
+	+	53	3
+	+	32	21
+	+	33	17
+	+	34	17
+	+	34	35
+	+	35	6
+	+	55	4
+	+	21	9
+	+	35	0
+	+	32	0
+	+	30	13
+	+	31	4
+	+	32	3
+	+	33	3
+	+	34	3
+	+	35	8
+	+	36	5
+	+	45	8
+	+	52	4
+	+	47	28
+	+	48	28
+	+	47	18
+	+	49	18
+	+	50	18
+	+	51	7
+	+	15	8
+	+	16	0
+	+	19	15
+	+	21	30
+	+	38	3
+	+	37	10
+	+	44	4
+	+	37	30
+	+	39	22
+	+	40	18
+	+	41	18
+	+	43	7
+	+	37	33
+	+	34	18
+	+	35	0
+	+	37	47
+	+	42	16
 
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/12-newest_files
-	"	2	17
-	^	2	18
-	.	2	17
-	+	2	17
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-main.c
+	"	12	0
+	^	12	1
+	.	12	0
+	+	12	0
 
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/11-directories
-	"	2	36
-	^	2	37
-	.	2	35
-	+	1	11
-	+	2	8
-	+	2	35
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/10-no_more_js
-	"	1	10
-	^	1	11
-	.	1	10
-	+	1	10
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/iacta
-	"	1	0
-	^	1	0
-	.	10	0
-	+	19	2
-	+	1	1
-	+	19	0
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/8-24_hours.c
+	"	3	11
+	^	3	12
+	.	3	11
+	+	25	18
+	+	25	17
+	+	9	12
+	+	11	12
+	+	11	12
+	+	11	12
+	+	25	25
+	+	25	28
+	+	25	34
+	+	25	36
+	+	25	70
+	+	25	10
+	+	25	15
+	+	25	9
+	+	25	7
+	+	25	4
+	+	28	0
+	+	25	20
+	+	25	20
+	+	7	21
+	+	25	9
+	+	25	9
+	+	25	26
+	+	25	5
+	+	25	6
+	+	25	4
+	+	25	10
+	+	25	24
+	+	25	24
+	+	25	20
+	+	25	21
+	+	25	21
+	+	25	21
+	+	25	21
+	+	25	9
+	+	25	24
+	+	25	24
+	+	25	61
+	+	25	4
+	+	25	4
+	+	25	9
+	+	25	13
+	+	25	16
+	+	25	18
+	+	25	19
+	+	25	20
+	+	11	1
+	+	11	5
+	+	11	11
+	+	12	11
+	+	9	1
 	+	10	0
+	+	11	0
+	+	9	1
+	+	10	13
+	+	11	20
+	+	11	18
+	+	11	18
+	+	11	18
+	+	12	14
+	+	25	2
+	+	15	1
+	+	12	14
+	+	11	0
+	+	15	17
+	+	16	4
+	+	24	3
+	+	17	21
+	+	18	21
+	+	19	17
+	+	20	13
+	+	19	13
+	+	20	21
+	+	21	21
+	+	22	18
+	+	23	7
+	+	25	3
+	+	25	6
+	+	25	20
+	+	27	0
+	+	17	27
+	+	18	11
+	+	20	26
+	+	21	16
+	+	12	9
+	+	15	10
+	+	23	4
+	+	25	0
+	+	25	3
+	+	25	9
+	+	10	7
+	+	14	8
+	+	27	0
+	+	26	1
+	+	25	6
+	+	10	8
+	+	21	17
+	+	26	3
+	+	4	2
+	+	3	11
 
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/9-duplicate_last_line
-	"	2	17
-	^	2	18
-	.	2	15
-	+	2	15
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/8-cwd_state
-	"	2	22
-	^	2	23
-	.	2	22
-	+	1	2
-	+	2	22
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/\*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)
-	"	1	0
-	^	1	0
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/7-file
-	"	2	85
-	^	2	86
-	.	3	0
-	+	1	0
-	+	1	39
-	+	1	11
-	+	2	69
-	+	2	132
-	+	2	48
-	+	2	30
-	+	2	24
-	+	3	0
-	+	2	162
-	+	2	61
-	+	2	78
-	+	2	78
-	+	2	82
-	+	2	168
-	+	2	27
-	+	2	81
-	+	3	0
-	+	2	180
-	+	2	60
-	+	3	0
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/*'Holberton
-	"	1	0
-	^	1	0
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/6-third_line
-	"	2	25
-	^	2	26
-	.	2	26
-	+	1	11
-	+	1	11
-	+	2	26
-
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/iaca
-	"	10	1
-	^	10	2
-	.	10	1
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/0-holberton.c
+	"	5	0
+	^	5	0
+	.	11	26
+	+	1	18
+	+	1	61
+	+	1	72
+	+	1	72
+	+	1	22
+	+	2	0
+	+	2	11
+	+	8	0
+	+	7	9
+	+	4	24
+	+	2	11
+	+	4	13
+	+	5	12
+	+	2	9
+	+	10	10
+	+	9	10
+	+	10	10
+	+	18	10
+	+	21	0
 	+	10	1
+	+	18	1
+	+	9	10
+	+	10	1
+	+	18	1
+	+	10	0
+	+	9	5
+	+	11	24
+	+	13	15
+	+	15	11
+	+	15	9
+	+	15	9
+	+	17	1
+	+	19	2
+	+	11	11
+	+	15	3
+	+	20	6
+	+	11	26
 
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/3-twofiles
-	"	2	14
-	^	2	15
-	.	2	15
-	+	2	15
+> ~/pruebas/aiuda.c
+	"	27	0
+	.	27	0
+	+	1	18
+	+	2	14
+	+	27	0
+	+	26	0
+	+	5	7
+	+	6	0
+	+	7	26
+	+	6	0
+	+	7	26
+	+	7	22
+	+	16	40
+	+	7	36
+	+	7	41
+	+	7	38
+	+	7	39
+	+	7	40
+	+	8	9
+	+	16	10
+	+	16	20
+	+	16	34
+	+	16	22
+	+	16	36
+	+	7	19
+	+	8	23
+	+	7	38
+	+	8	29
+	+	7	28
+	+	16	39
+	+	16	9
+	+	16	8
+	+	16	18
+	+	2	1
+	+	7	26
+	+	8	3
+	+	16	6
+	+	16	9
+	+	7	26
+	+	7	26
+	+	16	37
+	+	8	3
+	+	16	3
+	+	7	26
+	+	22	0
+	+	8	3
+	+	8	31
+	+	11	0
+	+	8	5
+	+	16	3
+	+	11	11
+	+	12	11
+	+	13	24
+	+	14	2
+	+	16	0
+	+	15	6
+	+	16	4
+	+	16	3
+	+	17	13
+	+	18	13
+	+	9	25
+	+	8	0
+	+	9	1
+	+	10	2
+	+	11	2
+	+	12	2
+	+	13	2
+	+	14	3
+	+	15	3
+	+	16	4
+	+	17	2
+	+	18	1
+	+	20	2
+	+	22	0
+	+	6	0
+	+	23	14
+	+	17	14
+	+	18	14
+	+	6	0
+	+	27	0
 
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/2-hellofile
-	"	2	14
-	^	2	15
-	.	2	13
-	+	2	13
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/8-main.c
+	"	12	0
+	^	12	1
+	.	12	0
+	+	12	0
 
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/5-firstlines
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/7-print_last_digit.c
+	"	3	0
+	^	3	0
+	.	11	10
+	+	7	25
+	+	29	0
+	+	9	10
+	+	7	25
+	+	9	18
+	+	10	11
+	+	3	17
+	+	10	1
+	+	28	0
+	+	10	1
+	+	12	12
+	+	17	1
+	+	15	10
+	+	23	0
+	+	15	12
+	+	22	2
+	+	14	1
+	+	15	1
+	+	17	1
+	+	20	11
+	+	23	1
+	+	28	0
+	+	10	20
+	+	11	20
+	+	18	14
+	+	27	2
+	+	25	12
+	+	16	12
+	+	21	12
+	+	26	11
+	+	28	0
+	+	15	16
+	+	20	16
+	+	25	16
+	+	13	0
+	+	23	5
+	+	12	0
+	+	10	12
+	+	11	10
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/7-last_digit.c
+	"	1	0
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/7-main.c
 	"	1	0
 	^	1	0
+	.	18	0
+	+	18	0
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/6-abs.c
+	"	20	0
+	^	20	0
+	.	20	0
+	+	21	0
+	+	7	13
+	+	3	5
+	+	7	13
+	+	11	4
+	+	14	15
+	+	14	9
+	+	9	0
+	+	14	11
+	+	15	0
+	+	14	13
+	+	16	14
+	+	14	10
+	+	17	1
+	+	18	1
+	+	19	1
+	+	17	15
+	+	18	10
+	+	20	1
+	+	11	8
+	+	17	17
+	+	18	10
+	+	7	15
+	+	16	6
+	+	18	0
+	+	9	4
+	+	16	5
+	+	20	0
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/6-main.c
+	"	8	0
+	^	8	0
+	.	22	0
+	+	22	0
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/5-sign.c
+	"	4	15
+	^	4	16
+	.	4	15
+	+	1	22
+	+	6	0
+	+	5	3
+	+	6	3
+	+	3	12
+	+	7	21
+	+	28	3
+	+	23	1
+	+	9	10
+	+	16	2
+	+	13	0
+	+	9	14
+	+	10	14
+	+	11	3
+	+	10	3
+	+	9	12
+	+	10	11
+	+	11	12
+	+	16	11
+	+	19	14
+	+	16	13
+	+	21	12
+	+	22	10
+	+	20	1
+	+	21	1
+	+	22	1
+	+	23	1
+	+	28	2
+	+	26	14
+	+	27	10
+	+	29	0
+	+	9	11
+	+	10	9
+	+	11	10
+	+	24	5
+	+	13	11
+	+	4	15
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/5-main.c
+	"	33	0
+	^	33	1
+	.	33	0
+	+	33	0
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/4-isalpha.c
+	"	11	57
+	^	11	58
+	.	11	53
+	+	21	0
+	+	3	9
+	+	7	11
+	+	16	0
+	+	15	23
+	+	11	51
+	+	16	0
+	+	11	53
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/4-main.c
+	"	1	20
+	^	1	21
+	.	1	20
+	+	21	0
+	+	1	20
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/3-islower.c
+	"	4	31
+	^	4	32
+	.	4	31
+	+	1	22
+	+	7	20
+	+	3	10
+	+	21	0
+	+	9	27
+	+	15	1
+	+	13	1
+	+	14	11
+	+	15	2
+	+	13	1
+	+	14	1
+	+	15	3
+	+	19	1
+	+	18	11
+	+	9	6
+	+	7	18
+	+	9	6
+	+	9	1
+	+	9	7
+	+	7	18
+	+	9	5
+	+	9	18
+	+	12	0
+	+	9	29
+	+	7	3
+	+	9	0
+	+	9	1
+	+	7	19
+	+	9	30
+	+	9	1
+	+	9	1
+	+	12	0
+	+	9	0
+	+	3	2
+	+	4	31
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/3-main.c
+	"	20	0
+	^	20	1
+	.	20	0
+	+	20	0
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/2-print_alphabet_x10.c
+	"	13	13
+	^	13	14
+	.	13	13
+	+	1	22
+	+	6	0
+	+	3	20
+	+	6	3
+	+	24	0
+	+	11	0
+	+	22	0
+	+	22	0
+	+	13	1
+	+	22	0
+	+	22	0
+	+	13	3
+	+	14	1
+	+	17	1
+	+	20	1
+	+	13	8
+	+	11	10
+	+	13	14
+	+	16	0
+	+	14	1
+	+	22	1
+	+	24	0
+	+	21	17
+	+	21	2
+	+	21	1
+	+	21	4
+	+	7	23
+	+	21	0
+	+	20	1
+	+	20	2
+	+	20	0
+	+	21	0
+	+	21	0
+	+	22	1
+	+	22	1
+	+	22	6
+	+	23	1
+	+	9	6
+	+	15	6
+	+	13	16
+	+	11	11
+	+	15	1
+	+	13	13
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/2-main.c
+	"	9	0
+	^	9	0
+	.	12	0
+	+	12	0
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/1-alphabet.c
+	"	12	14
+	^	12	15
+	.	12	14
+	+	1	22
+	+	7	14
+	+	17	0
+	+	16	12
+	+	11	1
+	+	9	8
+	+	9	7
+	+	10	6
+	+	9	10
+	+	10	38
+	+	12	15
+	+	16	1
+	+	14	17
+	+	15	5
+	+	10	40
+	+	7	3
+	+	17	0
+	+	12	15
+	+	17	14
+	+	11	0
+	+	3	16
+	+	12	14
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/1-main.c
+	"	12	0
+	^	12	1
+	.	12	0
+	+	12	0
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/0-holberton
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/_putchar.c
+	"	1	0
+	^	1	0
+	.	13	0
+	+	18	0
+	+	1	1
+	+	15	0
+	+	15	0
+	+	13	0
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/0.holberton.c
+	"	10	12
+	^	10	13
+	.	10	12
+	+	1	22
+	+	7	14
+	+	12	0
+	+	11	9
+	+	8	1
+	+	10	12
+
+> ~/pruebas/functions/function.c
+	"	1	0
+	^	1	0
+	.	10	28
+	+	3	11
+	+	15	0
+	+	6	12
+	+	9	9
+	+	8	9
+	+	9	18
+	+	10	45
+	+	2	17
+	+	15	0
+	+	13	9
+	+	9	20
+	+	10	47
+	+	1	18
+	+	10	28
+
+> ~/pruebas/functions/colors.h
+	"	1	0
+	^	1	0
+
+> ~/pruebas/functions/colors
+	"	4	13
+	^	4	14
+	.	4	13
+	+	1	28
+	+	5	0
+	+	3	12
+	+	1	17
+	+	3	24
+	+	4	13
+
+> ~/holbertonschool-low_level_programming/0x02-functions_nested_loops/README.md
+	"	1	31
+	^	1	32
+	.	1	21
+	+	1	21
+
+> ~/pruebas/njs
+	"	2	13
+	^	2	14
 	.	2	10
 	+	2	10
 
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/4-lastlines
-	"	2	15
-	^	2	16
-	.	2	15
-	+	2	15
+> ~/pruebas/abc.c
+	"	5	16
+	^	5	17
+	.	5	17
+	+	1	18
+	+	2	14
+	+	17	0
+	+	16	9
+	+	5	28
+	+	6	3
+	+	14	2
+	+	8	1
+	+	7	12
+	+	7	12
+	+	8	0
+	+	15	12
+	+	7	12
+	+	15	14
+	+	5	17
 
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/1-confused_smiley
-	"	2	13
-	^	2	14
-	.	2	7
-	+	2	7
+> ~/pruebas/pr.c
+	"	5	62
+	^	5	63
+	.	5	62
+	+	1	17
+	+	2	14
+	+	16	0
+	+	15	9
+	+	5	59
+	+	6	0
+	+	5	62
 
-> ~/holberton-system_engineering-devops/0x02-shell_redirections/0-hello_world
-	"	2	17
-	^	2	18
-	.	2	18
-	+	2	30
-	+	2	18
-
-> ~/holberton-system_engineering-devops/README.md
+> ~/pruebas/a.out
 	"	1	0
 	^	1	0
-	.	2	0
-	+	1	1
-	+	1	1
-	+	2	0
+
+> ~/pruebas/help.c
+	"	12	13
+	^	12	14
+	.	12	13
+	+	8	22
+	+	12	1
+	+	12	5
+	+	9	6
+	+	13	0
+	+	12	13
+
+> ~/pruebas/help
+	"	1	0
+	^	1	0
+	.	3	17
+	+	26	0
+	+	15	8
+	+	9	15
+	+	15	59
+	+	13	10
+	+	14	1
+	+	25	0
+	+	17	16
+	+	20	1
+	+	19	48
+	+	15	61
+	+	24	1
+	+	23	61
+	+	19	41
+	+	15	54
+	+	3	17
+
+> ~/pruebas/hello.c
+	"	1	0
+	^	1	0
+
+> ~/pruebas/wa2
+	"	2	27
+	^	2	28
+	.	2	27
+	+	3	0
+	+	2	49
+	+	2	52
+	+	2	8
+	+	2	53
+	+	2	32
+	+	2	53
+	+	3	0
+	+	2	49
+	+	2	55
+	+	2	51
+	+	2	55
+	+	2	32
+	+	2	55
+	+	2	55
+	+	3	0
+	+	2	27
+
+> ~/pruebas/combi.c
+	"	18	2
+	^	18	3
+	.	18	2
+	+	8	6
+	+	10	0
+	+	7	0
+	+	5	13
+	+	7	6
+	+	5	15
+	+	10	9
+	+	6	1
+	+	28	10
+	+	29	0
+	+	6	1
+	+	24	0
+	+	10	1
+	+	11	0
+	+	10	23
+	+	24	13
+	+	25	13
+	+	26	2
+	+	13	0
+	+	24	1
+	+	25	1
+	+	13	12
+	+	16	13
+	+	18	18
+	+	22	14
+	+	14	23
+	+	20	25
+	+	14	8
+	+	10	9
+	+	12	0
+	+	26	1
+	+	15	1
+	+	14	2
+	+	24	0
+	+	23	2
+	+	17	2
+	+	16	2
+	+	21	1
+	+	19	1
+	+	18	2
