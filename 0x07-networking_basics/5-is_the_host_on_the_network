@@ -1,1 +1,9 @@
 #!/usr/bin/env bash
+#Checks if other network devices are available on the network using ICMP protocol
+#$1 is equivalent to argv[1] in C
+if [ "$1" ]
+then
+    ping "$1" -c 5
+else
+    echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+fi
