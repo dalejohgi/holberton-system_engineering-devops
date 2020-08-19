@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Bash script that will display information about subdomains.
+
+dig_domine ()
+{
+    sub_d=$1
+    dig $1.$2 | grep -A1 ';; ANSWER SECTION:' | awk '{getline; printf "The subdomain %s is a %s record and points to %s\n", subdomain, $4, $5}' subdomain=$sub_d;
+}
+
+if [ $# -eq 1 ];
+then
+    dig_domine www $1;
+    dig_domine lb-01 $1;
+    dig_domine web-01 $1;
+    dig_domine web-02 $1;
+elif [ $# -eq 2 ];
+then
+    dig_domine $2 $1;
+fi
