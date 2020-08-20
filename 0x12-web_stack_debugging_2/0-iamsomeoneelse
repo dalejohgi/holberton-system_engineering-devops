@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Run the command whoami under a passed user
+
+sudo -H -u "$1" bash -c 'whoami'
