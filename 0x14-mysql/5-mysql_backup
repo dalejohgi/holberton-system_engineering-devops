@@ -3,4 +3,4 @@
 
 mysqldump -uroot -p"$1" --all-databases > backup.sql
 now="$(date +'%d-%m-%Y')"
-tar -czf "$now.tar.gz" backup.sql
+tar -cvzf "$now.tar.gz" backup.sql
