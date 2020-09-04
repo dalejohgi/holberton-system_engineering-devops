@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # Creates a backup of all the databases
-mysqldump -uroot -p"$1" --opt --all-databases > backup.sql
-now=$(date '+%d-%m-%Y')
-tar -czvf "$now.tar.gz" backup.sql
+mysqldump -uroot -p"$1" --all-databases > backup.sql
+tar -czf "$(date '+%d-%m-%Y').tar.gz" backup.sql
