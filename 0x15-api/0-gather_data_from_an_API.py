@@ -11,6 +11,7 @@ if __name__ == "__main__":
     tds = requests.get('{}/todos/?userId={}'.format(api_url, argv[1])).json()
     tds_done = requests.get('{}/todos/?userId={}&completed=true'
                             .format(api_url, argv[1])).json()
+
     user_name = user.get('name')
 
     print('Employee {} is done with tasks({}/{}):'
