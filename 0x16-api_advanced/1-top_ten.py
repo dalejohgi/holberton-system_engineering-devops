@@ -16,6 +16,7 @@ def top_ten(subreddit):
     if response.status_code not in range(200, 300):
         print('None')
         return
+
     response_json = response.json()
     elements_dict = response_json['data']['children']
     for element in elements_dict:

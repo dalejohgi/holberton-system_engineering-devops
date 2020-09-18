@@ -6,6 +6,7 @@ import requests
 
 def number_of_subscribers(subreddit):
     """Return the number of suscribers or 0 for invalid subreddit"""
+
     if not subreddit:
         return 0
     user_agent = {'User-Agent': 'dalejohgi'}
