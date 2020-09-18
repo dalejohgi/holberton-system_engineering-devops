@@ -25,4 +25,3 @@ if __name__ == "__main__":
         dic_obj[uid] = task_list
     with open(file_path, 'a') as f:
         json.dump(dic_obj, f)
-    print(file_path)
